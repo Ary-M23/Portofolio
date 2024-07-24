@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styless.css" />
+  </head>
+  <body>
+    <section></section>
+    <div class="layer">
+      <h2>Hello <br />i'am Arye</h2>
+      <h1>frontend <br />developer</h1>
+    </div>
+
+    <section class="section2">
+      <h1>My Projects</h1>
+      <div class="wrapper">
+        <a class="card" href="#">
+          <img src="image/projek aing.png" alt="" />
+          <p>Project FE extension</p>
+        </a>
+      </div>
+    </section>
+
+    <section class="section3">
+      <h1>Contact Us</h1>
+
+      <div class="wrapper">
+        <div>
+          <h2>Hello I'am Arye</h2>
+          <br />
+          <p>
+            My name is Arye Abisha Munthe. I am currently a 7th semester student at Telkom University, majoring in Information Technology.
+          </p>
+          <br />
+          <p> I have a strong interest in front-end development and have gained experience in using various frameworks and libraries such as Laravel, React, and Vue. Throughout my academic journey, I have worked on several projects that have allowed me to hone my skills in this technology. I am very interested in creating visually appealing and user friendly web applications.
+        </div>
+        <div class="mapouter">
+          <div class="gmap_canvas">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1980.1663401331189!2d107.62819900087723!3d-6.970022406931092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e9bc3974981d%3A0x613eec0feec9fcf7!2sTelkom%20University%20Landmark%20Tower%20(TULT)!5e0!3m2!1sid!2sid!4v1721804022112!5m2!1sid!2sid"
+              width="600"
+              height="450"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+        
+
+    <script>
+      let layer = document.querySelector(".layer");
+      window.addEventListener("scroll", function () {
+        let value = window.scrollY;
+        layer.style.left = value + "px"; //70px
+      });
+    </script>
+  </body>
+</html>
