@@ -123,3 +123,61 @@ section.section2 {
   width: 600px !important;
   height: 400px !important;
 }
+
+/* Media query untuk mobile */
+@media (max-width: 768px) {
+  /* Ukuran teks pada layer */
+  .layer h1 {
+    font-size: 6em;
+  }
+
+  .layer h2 {
+    font-size: 1.5em;
+  }
+
+  /* Section 2 untuk mobile */
+  .section2 {
+    padding: 5%;
+  }
+
+  .section2 h1 {
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+
+  /* Wrapper pada project card untuk mobile */
+  .wrapper {
+    grid-template-columns: 1fr; /* Membuat 1 kolom */
+    padding: 2%;
+  }
+
+  .wrapper .card {
+    padding: 10px;
+  }
+
+  /* Ukuran gambar */
+  .wrapper .card img {
+    width: 100%;
+  }
+
+  /* Section 3 untuk mobile */
+  .section3 {
+    padding: 5%;
+    height: auto; /* Biarkan tinggi dinamis sesuai konten */
+  }
+
+  .section3 h1 {
+    font-size: 1.5em;
+  }
+
+  /* Ukuran map pada mobile */
+  .mapouter {
+    width: 100%;
+    height: auto;
+  }
+
+  .gmap_canvas iframe {
+    width: 100%;
+    height: 300px; /* Sesuaikan tinggi iframe */
+  }
+}
