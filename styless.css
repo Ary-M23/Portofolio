@@ -181,3 +181,26 @@ section.section2 {
     height: 300px; /* Sesuaikan tinggi iframe */
   }
 }
+
+.social-media {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0px;
+}
+
+.social-media a {
+  font-size: 20px;
+  color: #000;
+  text-decoration: none;
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+}
+
+.social-media i {
+  margin-right: 8px;
+}
+
+.social-media a:hover {
+  color: #0073e6;
+}
